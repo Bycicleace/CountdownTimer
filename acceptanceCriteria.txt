@@ -1,0 +1,36 @@
+User Story:
+    AS An IT Admin,
+    I WANT a configurable countdown timer in a web browser,
+    SO THAT I'm able to display it during breaks in the Conference.
+
+Criteria
+    GIVEN Text boxes for hours, minutes, and seconds, and a button on one page
+        WHEN I enter numeric values and click the button
+        THEN The timer on the second page updates the timer with the new value
+    GIVEN Text boxes for hours, minutes, and seconds, and a button on one page
+        WHEN I enter numeric values and click the button
+        THEN The timer adds those values to the associated parts of the timer
+    GIVEN A configuration screen
+        WHEN I check a checkbox,
+        THEN Milleseconds being displayed are toggled on/off on the display screen
+        WHEN I check a checkbox,
+        THEN Seconds being displayed are toggled on/off on the display screen
+        WHEN I check a checkbox,
+        THEN Minutes being displayed are toggled on/off on the display screen
+        WHEN I check a checkbox,
+        THEN Hours being displayed are toggled on/off on the display screen
+        WHEN I click a Start Button,
+        THEN The timer starts counting down.
+        WHEN I click a Pause Button,
+        THEN The timer pauses.
+        WHEN I click a Stop Button,
+        THEN The timer stops and the counter is set to 0.
+        WHEN I enter text into a textbox and click a button,
+        THEN my text is displayed once the timer is complete.
+        WHEN I click an Upload button,
+        THEN I'm able to upload a new background image.
+        WHEN I upload a new image,
+        THEN The background image fades to the new image.
+    GIVEN A timer counts down,
+        WHEN The timer completes, or the Stop button is clicked,
+        THEN The timer fades out, and the text stored is displayed.
